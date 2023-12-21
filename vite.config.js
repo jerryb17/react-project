@@ -7,4 +7,5 @@ export default defineConfig({
     chunkSizeWarningLimit: 10000, // Adjust this value based on your preference (e.g., 1000 KB)
   },
   plugins: [react()],
+  base: 'vite-deploy/',
 });
